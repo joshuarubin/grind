@@ -13,12 +13,12 @@ import (
 	"go/format"
 	"go/parser"
 	"go/token"
+	"go/types"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
 
-	_ "golang.org/x/tools/go/gcimporter"
-	"golang.org/x/tools/go/types"
+	_ "golang.org/x/tools/go/gcimporter15"
 )
 
 type Package struct {

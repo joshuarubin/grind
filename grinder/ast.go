@@ -7,10 +7,9 @@ package grinder
 import (
 	"go/ast"
 	"go/token"
+	"go/types"
 
-	"golang.org/x/tools/go/types"
-
-	"rsc.io/grind/block"
+	"github.com/joshuarubin/grind/block"
 )
 
 func Unlabel(x ast.Stmt) ast.Stmt {

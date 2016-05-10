@@ -7,8 +7,8 @@ package vardecl
 import (
 	"testing"
 
-	"rsc.io/grind/grinder"
-	"rsc.io/grind/grindtest"
+	"github.com/joshuarubin/grind/grinder"
+	"github.com/joshuarubin/grind/grindtest"
 )
 
 /*

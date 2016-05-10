@@ -7,8 +7,8 @@ package deadcode
 import (
 	"go/ast"
 
-	"rsc.io/grind/block"
-	"rsc.io/grind/grinder"
+	"github.com/joshuarubin/grind/block"
+	"github.com/joshuarubin/grind/grinder"
 )
 
 func Grind(ctxt *grinder.Context, pkg *grinder.Package) {
